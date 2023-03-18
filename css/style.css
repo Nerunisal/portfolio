@@ -2,20 +2,16 @@
 @tailwind components;
 @tailwind utilities;    
 
-* {
-    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-p, ul li {
-    --tw-text-opacity: 1;
-    color: rgb(31 41 55 / var(--tw-text-opacity));
+p, ul li, a {
+    color: #18181b;
     font-family: 'Roboto', sans-serif;
-    font-size:16px;
+    font-size: 1rem;
+    font-weight: 300;
 }
 
 h1,h2,h3,h4,h5,h6 {
     font-family:'Lora', sans-serif;
-    font-weight:bold;
+    font-weight:700;
     color:#284399;
     font-size:24px;
 }
