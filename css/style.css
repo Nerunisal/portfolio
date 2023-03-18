@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;    
+
+* {
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p, ul li {
+    --tw-text-opacity: 1;
+    color: rgb(31 41 55 / var(--tw-text-opacity));
+    font-family: 'Roboto', sans-serif;
+    font-size:16px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family:'Lora', sans-serif;
+    font-weight:bold;
+    color:#284399;
+    font-size:24px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.my-work-grid .grid-item {
+    min-height: 550px;
+}
