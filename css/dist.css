@@ -674,6 +674,10 @@ video {
   margin-bottom: 3rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .block {
   display: block;
 }
@@ -1241,6 +1245,10 @@ h1,h2,h3,h4,h5,h6 {
 
   .md\:mt-0 {
     margin-top: 0px;
+  }
+
+  .md\:mb-10 {
+    margin-bottom: 2.5rem;
   }
 
   .md\:flex {
