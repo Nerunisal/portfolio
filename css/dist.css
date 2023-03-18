@@ -1072,11 +1072,6 @@ video {
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
-.text-gray-900 {
-  --tw-text-opacity: 1;
-  color: rgb(17 24 39 / var(--tw-text-opacity));
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1111,6 +1106,10 @@ h1,h2,h3,h4,h5,h6 {
   font-weight:700;
   color:#284399;
   font-size:24px;
+}
+
+nav li a {
+  font-weight: 100;
 }
 
 .container {

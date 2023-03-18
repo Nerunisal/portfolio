@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project - Respnsive Layout</title>
+    <title>Neruni Salpadoru - Developer & Designer</title>
     <link rel="stylesheet" href="../css/dist.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Roboto:wght@100&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Roboto:wght@100,300&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -21,7 +21,7 @@
           class="mx-auto flex items-center justify-between"
           aria-label="Global"
         >
-          <a href="../index.html" class="-m-1.5 p-1.5">
+          <a href="index.html" class="-m-1.5 p-1.5">
             <span class="sr-only">Neruni</span>
             <img class="h-20 w-auto" src="../images/neruni-logo.svg" alt="" />
           </a>
@@ -53,28 +53,33 @@
               >Projects</a
             >
             <a
-              href="mailto:nerunisal@gmail.com"
               target="_blank"
+              href="mailto:nerunisal@gmail.com"
               class="rounded-md bg-coolBlue px-3.5 py-2.5 text-lg font-semibold text-zinc-50 shadow-sm hover:bg-coolPink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
               >Get in touch</a
             >
           </div>
         </nav>
-
+        <!-- Mobile menu, show/hide based on menu open state. -->
         <div
           class="lg:hidden hidden"
           role="dialog"
           aria-modal="true"
           id="mobile-menu"
         >
+          <!-- Background backdrop, show/hide based on slide-over state. -->
           <div class="fixed inset-0 z-10"></div>
           <div
-            class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
+            class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-pink-100 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
           >
             <div class="flex items-center justify-between">
               <a href="#" class="-m-1.5 p-1.5">
                 <span class="sr-only">Your Company</span>
-                <img class="h-8 w-auto" src="./images/neruni-logo.svg" alt="" />
+                <img
+                  class="h-20 w-auto"
+                  src="../images/neruni-logo.svg"
+                  alt=""
+                />
               </a>
               <button
                 type="button"
@@ -100,9 +105,9 @@
             </div>
             <div class="mt-6 flow-root">
               <div class="-my-6 divide-y divide-gray-500/10">
-                <div class="space-y-2 py-6">
+                <div class="space -y-2 py-6">
                   <a
-                    href="projects.html"
+                    href="../projects.html"
                     class="-mx-3 block rounded-lg py-2 px-3 text-lg leading-7 text-coolBlue hover:bg-gray-50"
                     >Projects</a
                   >
@@ -129,14 +134,14 @@
           >
             Frontend Development
           </h2>
-          <p class="mt-4 text-gray-900">
-            A fully responsive build with a sticky header, horizontal scrolling
-            content, a parallax scroll background, and semantic forms. The
-            completed demonstrated well-formed and structured HTML markup with
-            precise and efficient CSS styling. Screen sizes were adjusted using
-            fluid and fixed form techniques and media queries. CSS properties
-            modified to high global browser support (Edge, Firefox, Chrome,
-            Safari, etc.)
+          <p class="mt-4">
+            A fully responsive website built with a sticky header, horizontal
+            scrolling content, a parallax scroll background, and semantic forms.
+            The completed demonstrated well-formed and structured HTML markup
+            with precise and efficient CSS styling. Screen sizes were adjusted
+            using fluid and fixed form techniques and media queries. CSS
+            properties modified to high global browser support (Edge, Firefox,
+            Chrome, Safari, etc.)
           </p>
           <div class="max-w-2xl mt-8">
             <h2
@@ -144,7 +149,7 @@
             >
               Skills
             </h2>
-            <ul class="mt-4 text-gray-900">
+            <ul class="mt-4">
               <li>
                 Knowledge of HTML syntax and structure and how to use semantic
                 HTML elements to describe the content of the page.

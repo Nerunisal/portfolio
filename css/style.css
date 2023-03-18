@@ -16,6 +16,10 @@ h1,h2,h3,h4,h5,h6 {
     font-size:24px;
 }
 
+nav li a {
+    font-weight: 100;
+}
+
 .container {
     margin: 0 auto;
     padding: 1rem;
