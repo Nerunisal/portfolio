@@ -28,3 +28,8 @@ nav li a {
 .my-work-grid .grid-item {
     min-height: 550px;
 }
+
+.social-icon {
+    width: 25px;
+    color: white;
+}
