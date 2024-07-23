@@ -1,35 +1,46 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;    
+@tailwind utilities;
 
-p, ul li, a {
-    color: #18181b;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    font-weight: 300;
+p,
+ul li,
+a {
+  color: #18181b;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-family:'Lora', sans-serif;
-    font-weight:700;
-    color:#284399;
-    font-size:24px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lora", sans-serif;
+  font-weight: 700;
+  color: #284399;
+  font-size: 24px;
 }
 
 nav li a {
-    font-weight: 100;
+  font-weight: 100;
+}
+
+main li {
+  list-style-type: disc;
 }
 
 .container {
-    margin: 0 auto;
-    padding: 1rem;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
 .my-work-grid .grid-item {
-    min-height: 550px;
+  min-height: 550px;
 }
 
 .social-icon {
-    width: 25px;
-    color: white;
+  width: 25px;
+  color: white;
 }
